@@ -1,11 +1,8 @@
 
 function subbed(l){
-    console.log("manjery");
     l.preventDefault()
     let email=document.getElementById('username').value
     let pass=document.getElementById('password').value
-    console.log(email);
-    console.log(pass);
 
     if(!username ||!password)
     {
@@ -28,7 +25,6 @@ function subbed(l){
             else{
                 const kinan=document.getElementById('kinan')
                 kinan.innerText=re.message
-                console.log("manjappetty");
             }
             
         })

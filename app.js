@@ -7,8 +7,6 @@ app.use(session({secret:"chinnu",resave:false,saveUninitialized:true}))
 
 const nocache = require("nocache");
 
-// ...
-
 app.use(nocache());
 
 app.set('view engine','ejs')
